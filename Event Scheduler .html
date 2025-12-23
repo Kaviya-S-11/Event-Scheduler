@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Schedule Calendar</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Event Schedule</h1>
+    </div>
+    <table>
+      
+      <div class="container">
+        <div class="current-date">
+            <h1 class="current">Sunday 12th</h1>
+            <h1 class="current">October 2025</h1> 
+          </div>
+      <thead>
+        <tr>
+          <th>Mon</th>
+          <th>Tues</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="other-month">29</td>
+          <td class="other-month">30</td>
+          <td><span class="date">1</span>
+            <div class="event">10 AM - Design Review</div>
+            <div class="event meeting">3 PM - Client Call</div>
+          </td>
+          <td>
+            <span class="date">2</span>
+            <div class="event reminder">9 AM - Publish Blog</div>
+          </td>
+          <td>
+            <span class="date">3</span>
+            <div class="event">Sprint Planning</div>
+          </td>
+          <td>
+            <span class="date">4</span>
+            <div class="event meeting">8PM - Team Dinner</div>
+          </td>
+          <td>
+            <span class="date">5</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span clas="date">6</span>
+            <div class="event">10 AM - UX Workshop</div>
+          </td>
+          <td>
+            <span class="date">7</span>
+          </td>
+          <td>
+            <span class="date">8</span>
+            <div class="event meeting">2 PM - Stakeholder Meeting</div>
+          </td>
+          <td>
+            <span class="date">9</span>
+          </td>
+          <td>
+            <span class="date">10</span>
+            <div class="event reminder">12 PM - Submit Timesheet</div>
+          </td>
+          <td>
+            <span class="date">11</span>
+          </td>
+          <td>
+            <span class="date">12</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span clas="date">13</span>
+            
+          </td>
+          <td>
+            <span class="date">14</span>
+            <div class="event meeting">10 AM - Interview</div>
+          </td>
+          <td>
+            <span class="date">15</span>
+          </td>
+          <td>
+            <span class="date">16</span>
+            <div class="event">1 PM - Projects Review</div>
+          </td>
+          <td>
+            <span class="date">17</span>
+          </td>
+          <td>
+            <span class="date">18</span>
+            <div class="event reminder">10 AM - Client Follow-Up</div>
+          </td>
+          <td>
+            <span class="date">19</span>
+          </td>
+        </tr>
+        <tr>
+          <td  class="festival">
+            <span class="date">20</span><div>Diwali</br>Festival</div>
+          </td>
+          <td>
+            <span class="date">21</span>
+          </td>
+          <td>
+            <span class="date">22</span>
+            <div class="event">3 PM - Release Review</div>
+          </td>
+          <td>
+            <span class="date">23</span>
+          </td>
+          <td>
+            <span class="date">24</span>
+            <div class="event reminder">6:30 PM - Webinar</div>
+          </td>
+          <td>
+            <span class="date">25</span>
+          </td>
+          <td>
+            <span class="date">26</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span clas="date">27</span>
+            <div class="event">2 PM - Design Handoff</div>
+          </td>
+          <td>
+            <span class="date">28</span>
+          </td>
+          <td>
+            <span class="date">29</span>
+          </td>
+          <td>
+            <span class="date">30</span>
+            <div class="event meeting">11:30 AM - Retrospective</div>
+          </td>
+          <td>
+            <span class="date">31</span>
+            <div class="event reminder">8 PM - Halloween Party</div>
+          </td>
+          <td class="other-month">1</td>
+          <td class="other-month">2</td>
+        </tr>
+      </tbody>
+      <div class="container-calendar">
+					<label for="month">Jump To: </label>
+					<!-- Dropdowns to select a specific month and year -->
+					<select>
+						<option value=0>Jan</option>
+						<option value=1>Feb</option>
+						<option value=2>Mar</option>
+						<option value=3>Apr</option>
+						<option value=4>May</option>
+						<option value=5>Jun</option>
+						<option value=6>Jul</option>
+						<option value=7>Aug</option>
+						<option value=8>Sep</option>
+						<option value=9>Oct</option>
+						<option value=10>Nov</option>
+						<option value=11>Dec</option>
+					</select>
+					<!-- Dropdown to select a specific year -->
+					
+				</div>
+    </div>
+    </table>
+  </div>
+</body>
+</html>
